@@ -127,8 +127,14 @@ input#bh:hover{
             height: 400px;
         }
         [con2]{
-            padding-top: 150px;
-            height: 200px;
+            border: 1px solid black;
+            overflow-y:visible;
+            padding-top: 10px;
+            height: auto;
+        }
+        .ques-page{
+            padding-top: 10px;
+            padding-bottom: 50px;
         }
         #bt{
             width: 200px;
