@@ -67,6 +67,7 @@ function letGetStarted(){
     if(input.value.length == 0){
         input.style.border = "1px solid red"
     }else{
+        input.style.border = "1px solid #28a745"
         firstpage.style.display = "none";
         intropage.style.display = "flex";
         hi.innerHTML = "<h1>"+"Hi,"+input.value+"</h1>";
