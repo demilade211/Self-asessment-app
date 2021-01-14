@@ -52,6 +52,7 @@
 .mess h1{
     color: #28a745;
     font-family: 'Lobster', cursive;
+    font-size: 30px;
 }
 input[type="text"]{
     border: 1px solid #28a745;
@@ -239,7 +240,6 @@ input[type="text"]{
             height: 400px;
         }
         [con2]{
-            border: 1px solid black;
             overflow-y:visible;
             padding-top: 10px;
             height: auto;
@@ -248,8 +248,19 @@ input[type="text"]{
             padding-top: 10px;
             padding-bottom: 50px;
         }
+        input[type="text"]{
+            width: 200px;
+        }
         #bt{
             width: 200px;
             height: 50px;
         }
+        #pb1,#pb2,#pb3,#pb4,#pb5,#pb6,#pb7,#pb8,#pb9,#pb10,
+#nb1,#nb2,#nb3,#nb4,#nb5,#nb6,#nb7,#nb8,#nb9,
+#nb10{
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    
+}
     }
