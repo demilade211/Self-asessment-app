@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
@@ -19,11 +24,10 @@
     align-items: center;
 }
 [con1]{
-    background-color: #7f53ac;
-    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    background-color: #28a745;
 }
 .in-con1{
-    width: 80%;
+    width: 88%;
     height: auto;
 }
 .in-con1 h1{
@@ -39,23 +43,102 @@
     flex-direction: column;
     overflow-y: scroll;
 }
+.first-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mess h1{
+    color: #28a745;
+    font-family: 'Lobster', cursive;
+}
+input[type="text"]{
+    border: 1px solid #28a745;
+    width: 500px;
+    height: 50px;
+    padding: 20px;
+}
+#tb:hover{
+    border: 2px solid #28a745;
+}
+#lg{
+   border: none;
+   background-color: #28a745; 
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   width: 200px;
+   height: 50px;
+   border-radius: 25px;
+   font-family: 'Roboto', sans-serif;
+}
+#lg:hover{
+    border: 1px solid #28a745;
+    background-color: white;
+    color: #28a745;
+}
+.intro-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#hi h1{
+    color: #28a745;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+#ta{
+    border: none;
+    background-color: #28a745; 
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+ }
+ #ta:hover{
+     border: 1px solid #28a745;
+     background-color: white;
+     color: #28a745;
+ }
 [in-con2]{
     width: auto;
     height: auto;
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 [in-con2] h1{
-    font-family: 'Yusei Magic', sans-serif;
+    font-family: 'Abril Fatface', cursive;
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
 }
+
 .ques-page{
-    padding-top: 2800px;
-    padding-bottom: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ques2,
+.ques3,
+.ques4,
+.ques5,
+.ques6,
+.ques7,
+.ques8,
+.ques9,
+.ques10{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: none;
 }
 .options-con{
     display: flex;
@@ -74,44 +157,73 @@
     justify-content: center;
     margin: 10px;
 }
-input[type="button"]{
+#pb1,#pb2,#pb3,#pb4,#pb5,#pb6,#pb7,#pb8,#pb9,#pb10,
+#nb1,#nb2,#nb3,#nb4,#nb5,#nb6,#nb7,#nb8,#nb9,
+#nb10{
     cursor: pointer;
-    border: none;
+    border: 1px solid #28a745;
     background-color: white;
-    text-align: center;
-    text-decoration: none;
-    width: 150px;
-    height: 40px;
-    color: #7f53ac;
     font-size: 20px;
-}
-#bt{
-    cursor: pointer;
-    border: 1px solid #7f53ac;
     text-align: center;
     text-decoration: none;
-    width: 500px;
-    height: 70px;
+    color: #28a745;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
 }
-#bt:hover{
-    background-color: #7f53ac;
-    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+#pb1,#pb2,#pb3,#pb4,#pb5,#pb6,#pb7,#pb8,#pb9,#pb10,
+#nb1,#nb2,#nb3,#nb4,#nb5,#nb6,#nb7,#nb8,#nb9,
+#nb10:hover{
+    border: none;
+    background-color: #28a745;
     color: white;
     transition: all 0.5s ease;
 }
-input#bh:hover{
-    border: 1px solid #7f53ac;
+#bt{
+    cursor: pointer;
+    background-color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    width: 500px;
+    height: 60px;
+    color: #28a745;
+    font-size: 25px;
 }
+#bt:hover{
+    border: 1px solid #28a745;
+    transition: all 0.5s ease;
+}
+.bye-page{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#hb{
+    border: none;
+    background-color: #28a745; 
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+ }
+ #hb:hover{
+     border: 1px solid #28a745;
+     background-color: white;
+     color: #28a745;
+ }
 .modal-header{
-    background-color: #7f53ac;
-    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    background-color: #28a745;
 }
 .modal-title{
     color: white;
 }
 .modal-footer{
-    background-color: #7f53ac;
-    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    background-color: #28a745;
 }
 @media screen and (max-width: 1000px) {
         .sec{
