@@ -85,6 +85,9 @@ input[type="text"]{
     align-items: center;
     flex-direction: column;
 }
+.dy-info p{
+    text-align: center;
+}
 #hi h1{
     color: #28a745;
     font-family: 'Lobster', cursive;
@@ -243,8 +246,10 @@ input[type="text"]{
             height: 400px;
         }
         [con2]{
+            border: 1px solid black;
             overflow-y:visible;
             padding-top: 10px;
+            
             height: auto;
         }
         .ques-page{
@@ -265,5 +270,11 @@ input[type="text"]{
     width: 100px;
     height: 50px;
     
+}
+#ta{
+    margin-bottom: 20px;
+}
+#hb{
+    margin: 20px 0px;
 }
     }
