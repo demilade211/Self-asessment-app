@@ -223,6 +223,9 @@ input[type="text"]{
 .modal-title{
     color: white;
 }
+.modal-body{
+    font-size: 25px;
+}
 .modal-footer{
     background-color: #28a745;
 }
